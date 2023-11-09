@@ -95,7 +95,7 @@
 \end{itemize}
 \end{exampleblock}
 
-\begin{exampleblock}{\textsc{Objective Revisted}}
+\begin{exampleblock}{\textsc{Objective Question Revisted}}
 \begin{itemize}
   \item Can Money Grow on Trees?
 \end{itemize}
@@ -111,7 +111,7 @@
 \metroset{block=fill}
 \begin{exampleblock}{\textsc{Lay Definition:}}
 \begin{itemize}
-  \item How do we increase $\Delta V$ on liquidity over some time interval $t$?
+  \item How do we increase $\Delta V$ on stagnated liquidity in pool over some time interval $t$?
 \end{itemize}
 \end{exampleblock}
 
@@ -164,7 +164,7 @@ This system describes the mathematical operations that are effectively being don
 \begin{align}
 \Delta x &=\frac{\Delta L x}{L}\\
 \Delta y &=\frac{\Delta L y}{L}\\
-\Delta y_{(i)} &= \Delta y + \frac{\gamma \Delta x (y - \Delta y)}{(x - \Delta x) + \gamma \Delta x}
+\Delta iy &= \Delta y + \frac{\gamma \Delta x (y - \Delta y)}{(x - \Delta x) + \gamma \Delta x}
 \end{align}
 
 \end{frame}
@@ -174,13 +174,11 @@ This system describes the mathematical operations that are effectively being don
  
 \begin{figure}[h!]
 \includegraphics[width=3in]{img/simple_tree.png}
-\caption{Simple Tree} 
+\caption{Take some liquidity $\Delta L$ and project it onto $ix$ axis} 
 \label{fig:simple_tree}
 \end{figure}
 
 \end{frame}
-
-
 
 \begin{frame}{How does this Work?} 
 
@@ -203,6 +201,8 @@ This system describes the mathematical operations that are effectively being don
 \caption{Full CPT liquidity tree represented as a computational tree structure comprised of left-sided, right-sided and synthetic pools } 
 \label{fig:full_tree}
 \end{figure}
+
+Liquidity Trees can be represented as computational graphs where nodes are denoted as DEX operations and arcs are denoted as indexed capital transitioning between the parent node and the child
 
 \end{frame}
 
@@ -272,7 +272,7 @@ Revenue / Liquidity  & 19.4\% & 80.5\% & 30.64\%\\
 
 
 
-\section{Revist our Objective}
+\section{Our Objective Question}
 
 \begin{frame}{In Summary}
 
@@ -280,20 +280,21 @@ Revenue / Liquidity  & 19.4\% & 80.5\% & 30.64\%\\
 \metroset{block=fill}
 \begin{exampleblock}{\textsc{Stagnant Pool Problem}}
 \begin{itemize}
-  \item Shown how stagnant pool problem can be addressed
+  \item Defined stagnant pool problem and how it can be addressed
 \end{itemize}
 \end{exampleblock}
 
 \begin{exampleblock}{\textsc{Liquidity Trees: A new DeFi Primitive}}
 \begin{itemize}
-  \item New DeFi Primitive, which we call Liquidity Trees 
+  \item New DeFi primitive, which we call Liquidity Trees 
   \item Utilizes fully collateralized liquidity, and can be represented as undirected graphs or algebraically in $\mathbb{R}^n$
+  \item Simulations support our reasoning
 \end{itemize}
 \end{exampleblock}
 
 \begin{exampleblock}{\textsc{Pachira Token Launch}}
 \begin{itemize}
-  \item Combining thes Liquidity Trees with a Governance system for Pachira Fund token launch
+  \item Combining Liquidity Trees with a governance system for Pachira Fund token launch
 \end{itemize}
 \end{exampleblock}
 

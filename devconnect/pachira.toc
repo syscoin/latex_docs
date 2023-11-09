@@ -2,4 +2,4 @@
 \beamer@sectionintoc {2}{What are we Solving?}{5}{0}{2}
 \beamer@sectionintoc {3}{Liquidity Trees}{12}{0}{3}
 \beamer@sectionintoc {4}{Simulation Results}{15}{0}{4}
-\beamer@sectionintoc {5}{Revist our Objective}{19}{0}{5}
+\beamer@sectionintoc {5}{Our Objective Question}{19}{0}{5}
