@@ -11,24 +11,24 @@
 
 \usepackage{appendixnumberbeamer} %enumerate each slide without counting the appendix
 
-\definecolor{SysBlue}{RGB}{12,120,183}
+\definecolor{SysBlue}{RGB}{238,162,100}
 \definecolor{Progress}{RGB}{56,60,92}
-\definecolor{Header}{RGB}{12,120,183}
-\definecolor{SlideTitle}{RGB}{0,137,208}
+\definecolor{Header}{RGB}{0,0,0}
+\definecolor{SlideTitle}{RGB}{213,213,213}
 \definecolor{ToC}{RGB}{51,58,66}
 
-\setbeamercolor{progress bar}{fg=Progress} %These are the colours of the progress bar. Notice that the names used are the svgnames
+\setbeamercolor{progress bar}{fg=SysBlue} %These are the colours of the progress bar. Notice that the names used are the svgnames
 \setbeamercolor{title separator}{fg=SysBlue} %This is the line colour in the title slide
 \setbeamercolor{structure}{fg=black} %Colour of the text of structure, numbers, items, blah. Not the big text.
 \setbeamercolor{normal text}{fg=black!87} %Colour of normal text
 \setbeamercolor{alerted text}{fg=DarkRed!60!Gainsboro} %Color of the alert box
 \setbeamercolor{example text}{fg=ToC} %Colour of the Example block text
 \setbeamercolor{background canvas}{bg=white}
+\setbeamercolor{item}{fg=black}
 
-
-\setbeamercolor{palette primary}{bg=SlideTitle, fg=white} %These are the colours of the background. Being this the main combination and so one. 
-\setbeamercolor{palette secondary}{bg=Header, fg=white}
-\setbeamercolor{palette tertiary}{bg=Header, fg=white}
+\setbeamercolor{palette primary}{bg=SlideTitle, fg=ToC} %These are the colours of the background. Being this the main combination and so one. 
+\setbeamercolor{palette secondary}{bg=ToC, fg=white}
+\setbeamercolor{palette tertiary}{bg=ToC, fg=white}
 \setbeamercolor{section in toc}{fg=ToC} %Color of the text in the table of contents (toc)
 
 \setbeamertemplate{blocks}[rounded][shadow=true]
@@ -180,7 +180,14 @@ This system describes the mathematical operations that are effectively being don
 
 \end{frame}
 
+\begin{frame}{New Dimension Cont'} 
 
+\begin{figure}[h!]
+\includegraphics[width=3in]{img/gump.png}
+\label{fig:gump}
+\end{figure}
+
+\end{frame}
 
 \begin{frame}{How does this Work?} 
 
