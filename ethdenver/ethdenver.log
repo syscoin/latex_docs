@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.3)  20 FEB 2024 16:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.3)  21 FEB 2024 12:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**pachira.tex
-(./pachira.tex
+**ethdenver.tex
+(./ethdenver.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18>
 (/usr/local/texlive/2021/texmf-dist/tex/latex/beamer/beamer.cls
@@ -1210,7 +1210,7 @@ File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count371
 \l__pdf_internal_box=\box125
 )
-(./pachira.aux
+(./ethdenver.aux
 
 LaTeX Warning: Label `fig:uniswap_v3' multiply defined.
 
@@ -1227,7 +1227,7 @@ LaTeX Warning: Label `fig:dex_forest' multiply defined.
 LaTeX Warning: Label `fig:swap_prices' multiply defined.
 
 )
-\openout1 = `pachira.aux'.
+\openout1 = `ethdenver.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
 LaTeX Font Info:    ... okay on input line 75.
@@ -1321,9 +1321,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 75.
 LaTeX Info: Redefining \pageref on input line 75.
 LaTeX Info: Redefining \nameref on input line 75.
- (./pachira.out) (./pachira.out)
+ (./ethdenver.out) (./ethdenver.out)
 \@outlinefile=\write5
-\openout5 = `pachira.out'.
+\openout5 = `ethdenver.out'.
 
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
@@ -1394,8 +1394,8 @@ Package caption Info: End \AtBeginDocument code.
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.17} (current compat level: 1.9).
 
-(./pachira.nav)
-<logo.png, id=71, 302.12875pt x 64.24pt>
+(./ethdenver.nav)
+<logo.png, id=66, 302.12875pt x 64.24pt>
 File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 79.
@@ -1427,347 +1427,341 @@ Overfull \vbox (13.79993pt too high) detected at line 79
 [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./logo.
-png>] (./pachira.toc)
-<logo_header.png, id=90, 633.36626pt x 128.48pt>
+png>] (./ethdenver.toc)
+<logo_header.png, id=85, 633.36626pt x 128.48pt>
 File: logo_header.png Graphic file (type png)
 <use logo_header.png>
 Package pdftex.def Info: logo_header.png  used on input line 87.
 (pdftex.def)             Requested size: 71.12982pt x 15.64825pt.
  [2
 
- <./logo_header.png>] [3
+ <./logo_header.png>]
+<img/ian_moore_winter_2022.png, id=144, 230.8625pt x 254.9525pt>
+File: img/ian_moore_winter_2022.png Graphic file (type png)
+<use img/ian_moore_winter_2022.png>
+Package pdftex.def Info: img/ian_moore_winter_2022.png  used on input line 124.
 
-]
+(pdftex.def)             Requested size: 99.58244pt x 113.81334pt.
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 1
-16.
+24.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
+Overfull \hbox (209.03954pt too wide) in paragraph at lines 124--124
+[][]  
+ []
+
 File: logo_header.png Graphic file (type png)
 <use logo_header.png>
-Package pdftex.def Info: logo_header.png  used on input line 116.
+Package pdftex.def Info: logo_header.png  used on input line 124.
+(pdftex.def)             Requested size: 71.12982pt x 15.64825pt.
+[3
+
+ <./img/ian_moore_winter_2022.png>]
+File: logo_header.png Graphic file (type png)
+<use logo_header.png>
+Package pdftex.def Info: logo_header.png  used on input line 153.
 (pdftex.def)             Requested size: 71.12982pt x 15.64825pt.
  [4
-
-] [5
 
 ]
 File: logo_header.png Graphic file (type png)
 <use logo_header.png>
-Package pdftex.def Info: logo_header.png  used on input line 142.
+Package pdftex.def Info: logo_header.png  used on input line 179.
 (pdftex.def)             Requested size: 71.12982pt x 15.64825pt.
-
-[6
+ [5
 
 ]
 <img/concentrated_liquidity.png, id=287, 960.58875pt x 266.9975pt>
 File: img/concentrated_liquidity.png Graphic file (type png)
 <use img/concentrated_liquidity.png>
-Package pdftex.def Info: img/concentrated_liquidity.png  used on input line 152
+Package pdftex.def Info: img/concentrated_liquidity.png  used on input line 189
 .
 (pdftex.def)             Requested size: 252.94499pt x 70.30585pt.
 File: logo_header.png Graphic file (type png)
 <use logo_header.png>
-Package pdftex.def Info: logo_header.png  used on input line 152.
+Package pdftex.def Info: logo_header.png  used on input line 189.
 (pdftex.def)             Requested size: 71.12982pt x 15.64825pt.
- [7
+ [6
 
  <./img/concentrated_liquidity.png>]
 File: logo_header.png Graphic file (type png)
 <use logo_header.png>
-Package pdftex.def Info: logo_header.png  used on input line 173.
+Package pdftex.def Info: logo_header.png  used on input line 210.
 (pdftex.def)             Requested size: 71.12982pt x 15.64825pt.
- [8
-
-] [9
+ [7
 
 ]
 File: logo_header.png Graphic file (type png)
 <use logo_header.png>
-Package pdftex.def Info: logo_header.png  used on input line 190.
+Package pdftex.def Info: logo_header.png  used on input line 227.
 (pdftex.def)             Requested size: 71.12982pt x 15.64825pt.
- [10
+ [8
 
 ]
-<img/slp.png, id=416, 571.13374pt x 285.065pt>
+<img/slp.png, id=396, 571.13374pt x 243.91125pt>
 File: img/slp.png Graphic file (type png)
 <use img/slp.png>
-Package pdftex.def Info: img/slp.png  used on input line 203.
-(pdftex.def)             Requested size: 252.94499pt x 126.25108pt.
+Package pdftex.def Info: img/slp.png  used on input line 240.
+(pdftex.def)             Requested size: 252.94499pt x 108.02469pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:uniswap_v
 3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.203 \end{frame}
+l.240 \end{frame}
                  
 File: logo_header.png Graphic file (type png)
 <use logo_header.png>
-Package pdftex.def Info: logo_header.png  used on input line 203.
+Package pdftex.def Info: logo_header.png  used on input line 240.
 (pdftex.def)             Requested size: 71.12982pt x 15.64825pt.
-
-Overfull \vbox (4.61905pt too high) detected at line 203
- []
-
-[11
+ [9
 
  <./img/slp.png>]
 File: logo_header.png Graphic file (type png)
 <use logo_header.png>
-Package pdftex.def Info: logo_header.png  used on input line 226.
+Package pdftex.def Info: logo_header.png  used on input line 265.
 (pdftex.def)             Requested size: 71.12982pt x 15.64825pt.
 
-Overfull \vbox (161.59682pt too high) detected at line 226
+Overfull \vbox (208.94167pt too high) detected at line 265
  []
 
-[12
-
-] [13
+[10
 
 ]
-<img/uniswap_v3.png, id=525, 722.7pt x 770.88pt>
+<img/uniswap_v3.png, id=489, 362.35374pt x 386.44376pt>
 File: img/uniswap_v3.png Graphic file (type png)
 <use img/uniswap_v3.png>
-Package pdftex.def Info: img/uniswap_v3.png  used on input line 239.
-(pdftex.def)             Requested size: 166.2212pt x 177.29868pt.
+Package pdftex.def Info: img/uniswap_v3.png  used on input line 278.
+(pdftex.def)             Requested size: 166.2212pt x 177.27097pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:uniswap_v
 3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.239 \end{frame}
+l.278 \end{frame}
                  
 File: logo_header.png Graphic file (type png)
 <use logo_header.png>
-Package pdftex.def Info: logo_header.png  used on input line 239.
+Package pdftex.def Info: logo_header.png  used on input line 278.
 (pdftex.def)             Requested size: 71.12982pt x 15.64825pt.
 
-Overfull \vbox (23.48683pt too high) detected at line 239
+Overfull \vbox (23.45912pt too high) detected at line 278
  []
 
-[14
+[11
 
  <./img/uniswap_v3.png>]
-<img/indexed_tkn_lrg.png, id=578, 423.5825pt x 283.0575pt>
+<img/indexed_tkn_lrg.png, id=536, 423.5825pt x 283.0575pt>
 File: img/indexed_tkn_lrg.png Graphic file (type png)
 <use img/indexed_tkn_lrg.png>
-Package pdftex.def Info: img/indexed_tkn_lrg.png  used on input line 255.
+Package pdftex.def Info: img/indexed_tkn_lrg.png  used on input line 294.
 (pdftex.def)             Requested size: 166.2212pt x 111.07439pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:uniswap_v
 3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.255 \end{frame}
+l.294 \end{frame}
                  
 File: logo_header.png Graphic file (type png)
 <use logo_header.png>
-Package pdftex.def Info: logo_header.png  used on input line 255.
+Package pdftex.def Info: logo_header.png  used on input line 294.
 (pdftex.def)             Requested size: 71.12982pt x 15.64825pt.
- [15
+ [12
 
  <./img/indexed_tkn_lrg.png>]
-<img/simple_tree.png, id=618, 1278.7775pt x 925.4575pt>
+<img/simple_tree.png, id=572, 1278.7775pt x 925.4575pt>
 File: img/simple_tree.png Graphic file (type png)
 <use img/simple_tree.png>
-Package pdftex.def Info: img/simple_tree.png  used on input line 267.
+Package pdftex.def Info: img/simple_tree.png  used on input line 306.
 (pdftex.def)             Requested size: 216.81pt x 156.90205pt.
 File: logo_header.png Graphic file (type png)
 <use logo_header.png>
-Package pdftex.def Info: logo_header.png  used on input line 267.
+Package pdftex.def Info: logo_header.png  used on input line 306.
 (pdftex.def)             Requested size: 71.12982pt x 15.64825pt.
 
-Overfull \vbox (3.09021pt too high) detected at line 267
+Overfull \vbox (3.09021pt too high) detected at line 306
  []
 
-[16
+[13
 
  <./img/simple_tree.png>]
-<img/compare.png, id=661, 1192.455pt x 620.3175pt>
+<img/compare.png, id=610, 1192.455pt x 620.3175pt>
 File: img/compare.png Graphic file (type png)
 <use img/compare.png>
-Package pdftex.def Info: img/compare.png  used on input line 277.
+Package pdftex.def Info: img/compare.png  used on input line 316.
 (pdftex.def)             Requested size: 216.81pt x 112.7787pt.
 File: logo_header.png Graphic file (type png)
 <use logo_header.png>
-Package pdftex.def Info: logo_header.png  used on input line 277.
+Package pdftex.def Info: logo_header.png  used on input line 316.
 (pdftex.def)             Requested size: 71.12982pt x 15.64825pt.
- [17
+ [14
 
  <./img/compare.png>]
-<img/full_tree.png, id=702, 674.52pt x 381.425pt>
+<img/full_tree.png, id=646, 674.52pt x 381.425pt>
 File: img/full_tree.png Graphic file (type png)
 <use img/full_tree.png>
-Package pdftex.def Info: img/full_tree.png  used on input line 289.
+Package pdftex.def Info: img/full_tree.png  used on input line 328.
 (pdftex.def)             Requested size: 216.81pt x 122.59975pt.
 File: logo_header.png Graphic file (type png)
 <use logo_header.png>
-Package pdftex.def Info: logo_header.png  used on input line 289.
+Package pdftex.def Info: logo_header.png  used on input line 328.
 (pdftex.def)             Requested size: 71.12982pt x 15.64825pt.
 
-Overfull \vbox (17.41266pt too high) detected at line 289
+Overfull \vbox (17.41266pt too high) detected at line 328
+ []
+
+[15
+
+ <./img/full_tree.png>]
+<img/sub_trees.png, id=683, 1183.42125pt x 593.21625pt>
+File: img/sub_trees.png Graphic file (type png)
+<use img/sub_trees.png>
+Package pdftex.def Info: img/sub_trees.png  used on input line 338.
+(pdftex.def)             Requested size: 216.81pt x 108.67517pt.
+File: logo_header.png Graphic file (type png)
+<use logo_header.png>
+Package pdftex.def Info: logo_header.png  used on input line 338.
+(pdftex.def)             Requested size: 71.12982pt x 15.64825pt.
+ [16
+
+ <./img/sub_trees.png>]
+<img/left_tree.png, id=719, 979.66pt x 809.0225pt>
+File: img/left_tree.png Graphic file (type png)
+<use img/left_tree.png>
+Package pdftex.def Info: img/left_tree.png  used on input line 350.
+(pdftex.def)             Requested size: 216.81pt x 179.03479pt.
+File: logo_header.png Graphic file (type png)
+<use logo_header.png>
+Package pdftex.def Info: logo_header.png  used on input line 350.
+(pdftex.def)             Requested size: 71.12982pt x 15.64825pt.
+ [17
+
+ <./img/left_tree.png>]
+<img/simulation.jpg, id=756, 1084.05pt x 1084.05pt>
+File: img/simulation.jpg Graphic file (type jpg)
+<use img/simulation.jpg>
+Package pdftex.def Info: img/simulation.jpg  used on input line 360.
+(pdftex.def)             Requested size: 216.81pt x 216.80615pt.
+File: logo_header.png Graphic file (type png)
+<use logo_header.png>
+Package pdftex.def Info: logo_header.png  used on input line 360.
+(pdftex.def)             Requested size: 71.12982pt x 15.64825pt.
+
+Overfull \vbox (23.69446pt too high) detected at line 360
  []
 
 [18
 
- <./img/full_tree.png>]
-<img/sub_trees.png, id=743, 1183.42125pt x 593.21625pt>
-File: img/sub_trees.png Graphic file (type png)
-<use img/sub_trees.png>
-Package pdftex.def Info: img/sub_trees.png  used on input line 299.
-(pdftex.def)             Requested size: 216.81pt x 108.67517pt.
-File: logo_header.png Graphic file (type png)
-<use logo_header.png>
-Package pdftex.def Info: logo_header.png  used on input line 299.
-(pdftex.def)             Requested size: 71.12982pt x 15.64825pt.
- [19
-
- <./img/sub_trees.png>] [20
-
-]
-<img/left_tree.png, id=791, 979.66pt x 809.0225pt>
-File: img/left_tree.png Graphic file (type png)
-<use img/left_tree.png>
-Package pdftex.def Info: img/left_tree.png  used on input line 311.
-(pdftex.def)             Requested size: 216.81pt x 179.03479pt.
-File: logo_header.png Graphic file (type png)
-<use logo_header.png>
-Package pdftex.def Info: logo_header.png  used on input line 311.
-(pdftex.def)             Requested size: 71.12982pt x 15.64825pt.
- [21
-
- <./img/left_tree.png>]
-<img/simulation.jpg, id=832, 1084.05pt x 1084.05pt>
-File: img/simulation.jpg Graphic file (type jpg)
-<use img/simulation.jpg>
-Package pdftex.def Info: img/simulation.jpg  used on input line 321.
-(pdftex.def)             Requested size: 216.81pt x 216.80615pt.
-File: logo_header.png Graphic file (type png)
-<use logo_header.png>
-Package pdftex.def Info: logo_header.png  used on input line 321.
-(pdftex.def)             Requested size: 71.12982pt x 15.64825pt.
-
-Overfull \vbox (23.69446pt too high) detected at line 321
- []
-
-[22
-
  <./img/simulation.jpg>]
 File: logo_header.png Graphic file (type png)
 <use logo_header.png>
-Package pdftex.def Info: logo_header.png  used on input line 352.
+Package pdftex.def Info: logo_header.png  used on input line 391.
 (pdftex.def)             Requested size: 71.12982pt x 15.64825pt.
- [23
-
-] [24
+ [19
 
 ]
 File: logo_header.png Graphic file (type png)
 <use logo_header.png>
-Package pdftex.def Info: logo_header.png  used on input line 384.
+Package pdftex.def Info: logo_header.png  used on input line 423.
 (pdftex.def)             Requested size: 71.12982pt x 15.64825pt.
- [25
+ [20
 
-] [26
+] [21
 
 ]
-<img/dex_forest_single_tree.png, id=1032, 726.715pt x 702.625pt>
+<img/dex_forest_single_tree.png, id=930, 726.715pt x 702.625pt>
 File: img/dex_forest_single_tree.png Graphic file (type png)
 <use img/dex_forest_single_tree.png>
-Package pdftex.def Info: img/dex_forest_single_tree.png  used on input line 396
+Package pdftex.def Info: img/dex_forest_single_tree.png  used on input line 435
 .
 (pdftex.def)             Requested size: 216.81pt x 209.62051pt.
 File: logo_header.png Graphic file (type png)
 <use logo_header.png>
-Package pdftex.def Info: logo_header.png  used on input line 396.
+Package pdftex.def Info: logo_header.png  used on input line 435.
 (pdftex.def)             Requested size: 71.12982pt x 15.64825pt.
 
-Overfull \vbox (16.50882pt too high) detected at line 396
+Overfull \vbox (16.50882pt too high) detected at line 435
  []
 
-[27
+[22
 
  <./img/dex_forest_single_tree.png>]
-<img/single_swap_prices.png, id=1073, 758.835pt x 317.185pt>
+<img/single_swap_prices.png, id=966, 758.835pt x 317.185pt>
 File: img/single_swap_prices.png Graphic file (type png)
 <use img/single_swap_prices.png>
-Package pdftex.def Info: img/single_swap_prices.png  used on input line 403.
+Package pdftex.def Info: img/single_swap_prices.png  used on input line 442.
 (pdftex.def)             Requested size: 252.94499pt x 105.72644pt.
 File: logo_header.png Graphic file (type png)
 <use logo_header.png>
-Package pdftex.def Info: logo_header.png  used on input line 403.
+Package pdftex.def Info: logo_header.png  used on input line 442.
 (pdftex.def)             Requested size: 71.12982pt x 15.64825pt.
- [28
+ [23
 
  <./img/single_swap_prices.png>]
-<img/dex_forest.png, id=1115, 1815.78375pt x 864.22874pt>
+<img/dex_forest.png, id=1003, 1815.78375pt x 864.22874pt>
 File: img/dex_forest.png Graphic file (type png)
 <use img/dex_forest.png>
-Package pdftex.def Info: img/dex_forest.png  used on input line 410.
+Package pdftex.def Info: img/dex_forest.png  used on input line 449.
 (pdftex.def)             Requested size: 303.53377pt x 144.46414pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:dex_fores
 t}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.410 \end{frame}
+l.449 \end{frame}
                  
 File: logo_header.png Graphic file (type png)
 <use logo_header.png>
-Package pdftex.def Info: logo_header.png  used on input line 410.
+Package pdftex.def Info: logo_header.png  used on input line 449.
 (pdftex.def)             Requested size: 71.12982pt x 15.64825pt.
- [29
+ [24
 
  <./img/dex_forest.png>]
-<img/swap_prices.jpg, id=1155, 1084.05pt x 867.24pt>
+<img/swap_prices.jpg, id=1038, 1084.05pt x 867.24pt>
 File: img/swap_prices.jpg Graphic file (type jpg)
 <use img/swap_prices.jpg>
-Package pdftex.def Info: img/swap_prices.jpg  used on input line 417.
+Package pdftex.def Info: img/swap_prices.jpg  used on input line 456.
 (pdftex.def)             Requested size: 252.94499pt x 202.3458pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:swap_pric
 es}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.417 \end{frame}
+l.456 \end{frame}
                  
 File: logo_header.png Graphic file (type png)
 <use logo_header.png>
-Package pdftex.def Info: logo_header.png  used on input line 417.
+Package pdftex.def Info: logo_header.png  used on input line 456.
 (pdftex.def)             Requested size: 71.12982pt x 15.64825pt.
 
-Overfull \vbox (9.2341pt too high) detected at line 417
+Overfull \vbox (9.2341pt too high) detected at line 456
  []
 
-[30
+[25
 
  <./img/swap_prices.jpg>]
 \tf@nav=\write6
-\openout6 = `pachira.nav'.
+\openout6 = `ethdenver.nav'.
 
 \tf@toc=\write7
-\openout7 = `pachira.toc'.
+\openout7 = `ethdenver.toc'.
 
 \tf@snm=\write8
-\openout8 = `pachira.snm'.
+\openout8 = `ethdenver.snm'.
 
- (./pachira.aux)
+ (./ethdenver.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `pachira.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `pachira.out':
-(rerunfilecheck)             Before: 73C481F8B99F2E19145E2DA5C99EC91D;774
-(rerunfilecheck)             After:  1DA34FDC061232435EE5FDD18C8C7050;764.
+Package rerunfilecheck Info: File `ethdenver.out' has not changed.
+(rerunfilecheck)             Checksum: BB56D24D34BAF4A03938A2E653D7127D;759.
  ) 
 Here is how much of TeX's memory you used:
- 36929 strings out of 478994
- 862732 string characters out of 5858185
- 1296304 words of memory out of 5000000
- 53563 multiletter control sequences out of 15000+600000
- 438845 words of font info for 93 fonts, out of 8000000 for 9000
+ 36880 strings out of 478994
+ 861342 string characters out of 5858185
+ 1293306 words of memory out of 5000000
+ 53522 multiletter control sequences out of 15000+600000
+ 440605 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 131i,19n,132p,1800b,1020s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 131i,19n,132p,1802b,1020s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
@@ -1783,10 +1777,10 @@ texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive/20
 f-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2021/texmf-dist/
 fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/t
 ype1/urw/palatino/uplri8a.pfb>
-Output written on pachira.pdf (30 pages, 1141685 bytes).
+Output written on ethdenver.pdf (25 pages, 1249978 bytes).
 PDF statistics:
- 1260 PDF objects out of 1440 (max. 8388607)
- 1078 compressed objects within 11 object streams
- 77 named destinations out of 1000 (max. 500000)
- 501 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1137 PDF objects out of 1200 (max. 8388607)
+ 964 compressed objects within 10 object streams
+ 67 named destinations out of 1000 (max. 500000)
+ 506 words of extra memory for PDF output out of 10000 (max. 10000000)
 

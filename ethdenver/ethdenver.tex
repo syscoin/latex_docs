@@ -67,7 +67,7 @@
 \title{Liquidity Tree Protocols With Pachira}
 \author[Name]{Ian Moore, PhD \inst{$\dagger$}}%With inst, you can change the institution they belong
 
-\institute[shortinst]{\inst{$\dagger$} Researcher @ Syslabs (email: imoore@syscoin.org) }
+\institute[shortinst]{\inst{$\dagger$} Researcher @ Syslabs (email: imoore@syslabs.com) }
 
 \date{Feburary 23, 2024} %Here you can change the date
 \titlegraphic{\vspace{-0.5cm}\hfill\includegraphics[scale=0.23]{logo.png}} %You can modify the location of the logo by changing the command \vspace{}. 
@@ -86,17 +86,60 @@
   \tableofcontents[hideallsubsections] %You can comment this line if you want to show the subsections in the table of contents
 \end{frame}
 
+\metroset{sectionpage=none} 
+
 \section{Introduction}
+
+\begin{frame}{Who Am I}
+
+
+       \begin{tabular}{cl}  
+         \begin{tabular}{c}
+           \includegraphics[height=4cm, width=3.5cm]{img/ian_moore_winter_2022.png}
+           \end{tabular}
+           & \begin{tabular}{l}
+             \parbox{1.2\linewidth}{%  change the parbox width as appropiate
+
+Ian Moore, PhD
+\begin{itemize} 
+\item {\footnotesize Current}:
+     \begin{itemize} 
+       	\item {\scriptsize Core Developer @ DeFiPy (2024-)}
+        \item {\scriptsize Syslabs Researcher (2022-)}
+        \item {\scriptsize Syscoin Foundation Advisor (2021-)}
+     \end{itemize}
+\item {\footnotesize Past}:
+     \begin{itemize} 
+        \item {\scriptsize Senior / Lead Data Scientist (2014-2020)}
+        \item {\scriptsize Adjunct Lecturer @ UofT (Biostats, 2010-2014)}
+        \item {\scriptsize Statistician (2009-2014)}
+     \end{itemize}
+\end{itemize}
+
+    }
+         \end{tabular}  \\
+\end{tabular}
+
+
+\end{frame}
 
 
 
 \begin{frame}{Objectives}
 
 \metroset{block=fill}
+
+\begin{exampleblock}{\textsc{Preamble}}
+\begin{itemize}
+  \item Capital Efficiency
+  \item CLMMs
+\end{itemize}  
+\end{exampleblock}
+
 \begin{exampleblock}{\textsc{Define our problem}}
 \begin{itemize}
+  \item Define Stagnant Liquidity
   \item Stagnant Liquidity Problem
-  \item Implicitly addressed by Uniswap v3
 \end{itemize}  
 \end{exampleblock}
 
@@ -104,12 +147,6 @@
 \begin{itemize}
   \item Liquidity Trees
   \item Simulation Results
-\end{itemize}
-\end{exampleblock}
-
-\begin{exampleblock}{\textsc{Objective Question Revisted}}
-\begin{itemize}
-  \item Can Money Grow on Trees?
 \end{itemize}
 \end{exampleblock}
 
@@ -178,7 +215,7 @@ Many DeFi protocols have applied the solution to this inefficiency using what's 
 
  
 \begin{itemize}
-  \item Let $L(p)$ be our optimal liquidity frequency distribution and, $\hat{L}_{(MM)}(p)$ would our our market maker (MM) estimator 
+  \item Let $L(p)$ be our optimal liquidity frequency distribution, and $\hat{L}_{(MM)}(p)$ would our our market maker (MM) estimator 
   \item Hence, we define stagnant liquidity as:
 \end{itemize}
 
@@ -218,6 +255,8 @@ No matter what one does to address the lazy liquidity issue using CLMMs, there w
 \begin{exampleblock}{\textsc{Solution}}
 \begin{itemize}
   \item Instead of adjusting the price curve as individual LPs using CLMMs, we address the problem via a \red{network} of LPs called \red{Liquidity Trees}
+  \item Not mutually exclusive, hence complimentary to CLMMs 
+  \item Can implement both Liquidity Trees and CLMMs together (shall discuss)
 \end{itemize}
 \end{exampleblock}
 
@@ -353,7 +392,7 @@ Revenue / Liquidity  & 19.4\% & 80.5\% & 30.64\%\\
 
 
 
-\section{Our Objective Question}
+\section{Our Objective Problem}
 
 \begin{frame}{In Summary}
 
@@ -375,7 +414,7 @@ Revenue / Liquidity  & 19.4\% & 80.5\% & 30.64\%\\
 
 \begin{exampleblock}{\textsc{Pachira Token Launch}}
 \begin{itemize}
-  \item Combining Liquidity Trees with a governance system for Pachira Fund token launch
+  \item Combining Liquidity Trees with a governance system for Pachira token launch
 \end{itemize}
 \end{exampleblock}
 
