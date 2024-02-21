@@ -3,4 +3,4 @@
 \beamer@sectionintoc {3}{Problem we are Solving}{8}{0}{3}
 \beamer@sectionintoc {4}{Liquidity Trees}{11}{0}{4}
 \beamer@sectionintoc {5}{Simulation Results}{17}{0}{5}
-\beamer@sectionintoc {6}{Our Objective Problem}{20}{0}{6}
+\beamer@sectionintoc {6}{Summary}{20}{0}{6}
