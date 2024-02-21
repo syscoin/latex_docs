@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.3)  7 OCT 2023 22:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.3)  6 DEC 2023 16:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -545,18 +545,18 @@ Overfull \hbox (9.2679pt too wide) in paragraph at lines 46--46
 Package xcolor Warning: Incompatible color definition on input line 48.
 
 
+Package xcolor Warning: Incompatible color definition on input line 64.
+
+
+Package xcolor Warning: Incompatible color definition on input line 66.
+
+
 Package xcolor Warning: Incompatible color definition on input line 80.
-
-
-Package xcolor Warning: Incompatible color definition on input line 82.
-
-
-Package xcolor Warning: Incompatible color definition on input line 88.
 
 <Logo.png, id=4, 401.5pt x 120.45pt>
 File: Logo.png Graphic file (type png)
 <use Logo.png>
-Package pdftex.def Info: Logo.png  used on input line 88.
+Package pdftex.def Info: Logo.png  used on input line 80.
 (pdftex.def)             Requested size: 91.32pt x 27.39598pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -582,37 +582,34 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 
  <./Logo.png> <./bullet.png>]
-<img/imp_loss.png, id=24, 651.43375pt x 401.5pt>
+<img/imp_loss.png, id=25, 651.43375pt x 401.5pt>
 File: img/imp_loss.png Graphic file (type png)
 <use img/imp_loss.png>
-Package pdftex.def Info: img/imp_loss.png  used on input line 110.
+Package pdftex.def Info: img/imp_loss.png  used on input line 94.
 (pdftex.def)             Requested size: 216.81pt x 133.62878pt.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Package xcolor Warning: Incompatible color definition on input line 99.
 
 
-Package xcolor Warning: Incompatible color definition on input line 115.
+Package xcolor Warning: Incompatible color definition on input line 120.
 
-
-Package xcolor Warning: Incompatible color definition on input line 136.
-
-<img/imp_loss_compounding_fees.png, id=25, 692.5875pt x 397.485pt>
+<img/imp_loss_compounding_fees.png, id=26, 692.5875pt x 397.485pt>
 File: img/imp_loss_compounding_fees.png Graphic file (type png)
 <use img/imp_loss_compounding_fees.png>
 Package pdftex.def Info: img/imp_loss_compounding_fees.png  used on input line 
-158.
+142.
 (pdftex.def)             Requested size: 216.81pt x 124.42603pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Package xcolor Warning: Incompatible color definition on input line 163.
+Package xcolor Warning: Incompatible color definition on input line 147.
 
-<notaglineLogo.png, id=26, 401.5pt x 120.45pt>
+<notaglineLogo.png, id=27, 401.5pt x 120.45pt>
 File: notaglineLogo.png Graphic file (type png)
 <use notaglineLogo.png>
-Package pdftex.def Info: notaglineLogo.png  used on input line 167.
+Package pdftex.def Info: notaglineLogo.png  used on input line 153.
 (pdftex.def)             Requested size: 91.32pt x 27.39598pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -630,43 +627,40 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [2 <./notaglineLogo.png> <./img/imp_loss.png>]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 17
-8.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 16
+2.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Overfull \hbox (13.8453pt too wide) in paragraph at lines 174--204
+Overfull \hbox (13.8453pt too wide) in paragraph at lines 158--188
  [][] 
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Package xcolor Warning: Incompatible color definition on input line 197.
 
 
-Package xcolor Warning: Incompatible color definition on input line 213.
-
-
-Overfull \hbox (6.27072pt too wide) in paragraph at lines 225--226
+Overfull \hbox (6.27072pt too wide) in paragraph at lines 209--210
 []\T1/ptm/n/n/10 Solve swap deltas $\OT1/cmr/m/n/10 ^^A\OML/cmm/m/it/10 x[]$ \T
 1/ptm/n/n/10 and $\OT1/cmr/m/n/10 ^^A\OML/cmm/m/it/10 y[]$ \T1/ptm/n/n/10 us-in
 g [][]\T1/pcr/m/n/10 SolveDeltas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--228
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
 []\T1/ptm/n/n/10 Run [][]\T1/pcr/m/n/10 EventSelectionModel []\T1/ptm/n/n/10 to
  de-ter-mine
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--228
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
 \T1/ptm/n/n/10 de-posit or with-drawal event with prob-a-bil-ity
  []
 
 File: notaglineLogo.png Graphic file (type png)
 <use notaglineLogo.png>
-Package pdftex.def Info: notaglineLogo.png  used on input line 228.
+Package pdftex.def Info: notaglineLogo.png  used on input line 221.
 (pdftex.def)             Requested size: 91.32pt x 27.39598pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -687,12 +681,12 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 <img/price_simulations.png, id=47, 1084.05pt x 505.89pt>
 File: img/price_simulations.png Graphic file (type png)
 <use img/price_simulations.png>
-Package pdftex.def Info: img/price_simulations.png  used on input line 239.
+Package pdftex.def Info: img/price_simulations.png  used on input line 223.
 (pdftex.def)             Requested size: 216.81pt x 101.1762pt.
 <img/lp_position_values.png, id=48, 1300.86pt x 1445.4pt>
 File: img/lp_position_values.png Graphic file (type png)
 <use img/lp_position_values.png>
-Package pdftex.def Info: img/lp_position_values.png  used on input line 247.
+Package pdftex.def Info: img/lp_position_values.png  used on input line 231.
 (pdftex.def)             Requested size: 216.81pt x 240.8847pt.
 
 
@@ -701,7 +695,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <img/lp_simulation.png, id=49, 1300.86pt x 1445.4pt>
 File: img/lp_simulation.png Graphic file (type png)
 <use img/lp_simulation.png>
-Package pdftex.def Info: img/lp_simulation.png  used on input line 254.
+Package pdftex.def Info: img/lp_simulation.png  used on input line 238.
 (pdftex.def)             Requested size: 216.81pt x 240.8847pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -713,14 +707,11 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Package xcolor Warning: Incompatible color definition on input line 325.
+Package xcolor Warning: Incompatible color definition on input line 309.
 
 File: notaglineLogo.png Graphic file (type png)
 <use notaglineLogo.png>
-Package pdftex.def Info: notaglineLogo.png  used on input line 330.
+Package pdftex.def Info: notaglineLogo.png  used on input line 314.
 (pdftex.def)             Requested size: 91.32pt x 27.39598pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -740,17 +731,17 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [4 <./img/price_simulations.png> <./img/lp_position_values.png> <./img/lp_simul
 ation.png>]
 
-Package xcolor Warning: Incompatible color definition on input line 338.
+Package xcolor Warning: Incompatible color definition on input line 322.
+
+
+Package xcolor Warning: Incompatible color definition on input line 339.
 
 
 Package xcolor Warning: Incompatible color definition on input line 355.
 
-
-Package xcolor Warning: Incompatible color definition on input line 371.
-
 File: notaglineLogo.png Graphic file (type png)
 <use notaglineLogo.png>
-Package pdftex.def Info: notaglineLogo.png  used on input line 390.
+Package pdftex.def Info: notaglineLogo.png  used on input line 389.
 (pdftex.def)             Requested size: 91.32pt x 27.39598pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -769,186 +760,186 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [5]
 
-Package xcolor Warning: Incompatible color definition on input line 408.
+Package xcolor Warning: Incompatible color definition on input line 392.
 
 
-Package xcolor Warning: Incompatible color definition on input line 428.
+Package xcolor Warning: Incompatible color definition on input line 412.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 430--431
+Underfull \hbox (badness 10000) in paragraph at lines 414--415
 []\T1/ptm/m/n/7.61 Pintail, \T1/ptm/m/it/7.61 Uniswap: A Good Deal for Liq-uid-
 ity Providers?\T1/ptm/m/n/7.61 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 430--431
+Underfull \hbox (badness 10000) in paragraph at lines 414--415
 \T1/ptm/m/n/7.61 Jan. 2019. Ac-cessed on: Dec 2022. [On-line]. Avail-able:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 430--431
+Underfull \hbox (badness 10000) in paragraph at lines 414--415
 \T1/ptm/m/n/7.61 https://pintail.medium.com/uniswap-a-good-deal-for-liquidity-p
 roviders-
  []
 
 
-Underfull \hbox (badness 2134) in paragraph at lines 432--433
+Underfull \hbox (badness 2134) in paragraph at lines 416--417
 \T1/ptm/m/n/7.61 2022. [On-line]. Avail-able: hhttps://pintail.medium.com/under
 standing-
  []
 
 
-Underfull \hbox (badness 4543) in paragraph at lines 434--435
+Underfull \hbox (badness 4543) in paragraph at lines 418--419
 []\T1/ptm/m/n/7.61 C. Doge, I. Moore, R. Ar-bour, and J. Sidhu, \T1/ptm/m/it/7.
 61 DOASYS, Smart
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 434--435
+Underfull \hbox (badness 10000) in paragraph at lines 418--419
 \T1/ptm/m/it/7.61 DAO Pro-to-col for De-cen-tral-ized Fi-nance\T1/ptm/m/n/7.61 
 , Syscoin Github
  []
 
 
-Underfull \hbox (badness 5374) in paragraph at lines 434--435
+Underfull \hbox (badness 5374) in paragraph at lines 418--419
 \T1/ptm/m/n/7.61 re-pos, Oct. 2022, Ac-cessed on: Mar 2023. [On-line]. Avail-ab
 le:
  []
 
 
-Underfull \hbox (badness 7151) in paragraph at lines 436--437
+Underfull \hbox (badness 7151) in paragraph at lines 420--421
 []\T1/ptm/m/n/7.61 P. Erins, \T1/ptm/m/it/7.61 How to cal-cu-late Im-per-ma-nen
 t Loss: full deriva-tion\T1/ptm/m/n/7.61 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--437
+Underfull \hbox (badness 10000) in paragraph at lines 420--421
 \T1/ptm/m/n/7.61 Jun. 2021. Ac-cessed on: Dec 2022. [On-line]. Avail-able:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--437
+Underfull \hbox (badness 10000) in paragraph at lines 420--421
 \T1/ptm/m/n/7.61 https://medium.com/auditless/how-to-calculate-impermanent-loss
 -full-
  []
 
 
-Underfull \hbox (badness 2189) in paragraph at lines 440--441
+Underfull \hbox (badness 2189) in paragraph at lines 424--425
 \T1/ptm/m/it/7.61 in Uniswap\T1/ptm/m/n/7.61 , Oct. 2021. Ac-cessed on: Dec 202
 2. [On-line]. Avail-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 442--443
+Underfull \hbox (badness 10000) in paragraph at lines 426--427
 []\T1/ptm/m/n/7.61 Danr, \T1/ptm/m/it/7.61 Ex-pected Im-per-ma-nent Loss in Uni
 swap V2 & V3\T1/ptm/m/n/7.61 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 442--443
+Underfull \hbox (badness 10000) in paragraph at lines 426--427
 \T1/ptm/m/n/7.61 Mar. 2022. Ac-cessed on: Dec 2022. [On-line]. Avail-able:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 442--443
+Underfull \hbox (badness 10000) in paragraph at lines 426--427
 \T1/ptm/m/n/7.61 https://medium.com/gammaswap-labs/expected-impermanent-loss-in
 -
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 444--445
+Underfull \hbox (badness 10000) in paragraph at lines 428--429
 []\T1/ptm/m/n/7.61 Danr, \T1/ptm/m/it/7.61 To-tal Re-turns and Im-per-ma-nent L
 oss in Uniswap V2\T1/ptm/m/n/7.61 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 444--445
+Underfull \hbox (badness 10000) in paragraph at lines 428--429
 \T1/ptm/m/n/7.61 Dec. 2021. Ac-cessed on: Dec 2022. [On-line]. Avail-able:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 444--445
+Underfull \hbox (badness 10000) in paragraph at lines 428--429
 \T1/ptm/m/n/7.61 https://medium.com/gammaswap-labs/total-returns-and-impermanen
 t-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 446--447
+Underfull \hbox (badness 10000) in paragraph at lines 430--431
 []\T1/ptm/m/n/7.61 N. Pri-vault, \T1/ptm/m/it/7.61 Notes on Fi-nan-cial Risk & 
 An-a-lyt-ics\T1/ptm/m/n/7.61 , Jan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 446--447
+Underfull \hbox (badness 10000) in paragraph at lines 430--431
 \T1/ptm/m/n/7.61 2023, Ac-cessed on: Feb 2023. [On-line]. Avail-able:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 451--452
+Underfull \hbox (badness 10000) in paragraph at lines 435--436
 \T1/ptm/m/n/7.61 https://icmoore.medium.com/masternode-yield-farming-as-a-daosy
 s-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 453--454
+Underfull \hbox (badness 10000) in paragraph at lines 437--438
 \T1/ptm/m/n/7.61 https://icmoore.medium.com/masternode-yield-farming-as-a-daosy
 s-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 455--456
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
 []\T1/ptm/m/n/7.61 I.C. Moore, \T1/ptm/m/it/7.61 Sim-u-la-tion: Mas-tern-ode Yi
 eld Farm-ing\T1/ptm/m/n/7.61 , Syscoin
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 455--456
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
 \T1/ptm/m/n/7.61 Github re-pos, Ac-cessed on: Apr 2021. [On-line]. Avail-able:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 457--458
+Underfull \hbox (badness 10000) in paragraph at lines 441--442
 []\T1/ptm/m/n/7.61 I.C. Moore , \T1/ptm/m/it/7.61 Sim-u-la-tion: LP Ac-tiv-ity 
 us-ing GBM\T1/ptm/m/n/7.61 , Syscoin
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 457--458
+Underfull \hbox (badness 10000) in paragraph at lines 441--442
 \T1/ptm/m/n/7.61 Github re-pos, Ac-cessed on: Apr 2021. [On-line]. Avail-able:
  []
 
 
-Overfull \hbox (27.72113pt too wide) in paragraph at lines 457--458
+Overfull \hbox (27.72113pt too wide) in paragraph at lines 441--442
 \T1/ptm/m/n/7.61 https://github.com/syscoin/daosys/tree/main/notebooks/research
 /impermanent_loss 
  []
 
 
-Underfull \hbox (badness 2478) in paragraph at lines 462--463
+Underfull \hbox (badness 2478) in paragraph at lines 446--447
 \T1/ptm/m/it/7.61 Plat-form\T1/ptm/m/n/7.61 , Feb 2021, Ac-cessed on: Sep 2021.
  [On-line]. Avail-able:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 462--463
+Underfull \hbox (badness 10000) in paragraph at lines 446--447
 \T1/ptm/m/n/7.61 https://jsidhu.medium.com/a-design-for-an-efficient-coordinate
 d-
  []
 
-LaTeX Font Info:    Calculating math sizes for size <7.61> on input line 465.
+LaTeX Font Info:    Calculating math sizes for size <7.61> on input line 449.
 
-Underfull \hbox (badness 1436) in paragraph at lines 464--466
+Underfull \hbox (badness 1436) in paragraph at lines 448--450
 \T1/ptm/m/n/7.61 Plat-form, Dec. 2021. Ac-cessed on: Sept 2022. [On-line]. Avai
 l-able:
  []
 
 File: bullet.png Graphic file (type png)
 <use bullet.png>
-Package pdftex.def Info: bullet.png  used on input line 475.
+Package pdftex.def Info: bullet.png  used on input line 459.
 (pdftex.def)             Requested size: 5.0pt x 14.6871pt.
 File: notaglineLogo.png Graphic file (type png)
 <use notaglineLogo.png>
-Package pdftex.def Info: notaglineLogo.png  used on input line 477.
+Package pdftex.def Info: notaglineLogo.png  used on input line 461.
 (pdftex.def)             Requested size: 91.32pt x 27.39598pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -976,11 +967,11 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  7394 strings out of 478994
  118160 string characters out of 5858185
- 610708 words of memory out of 5000000
+ 606708 words of memory out of 5000000
  24712 multiletter control sequences out of 15000+600000
  490411 words of font info for 156 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,13n,117p,1228b,540s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 83i,13n,117p,1228b,427s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local
@@ -1004,7 +995,7 @@ lvetic/uhvbo8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/helvetic
 a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></us
 r/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/te
 xlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on article.pdf (6 pages, 1802627 bytes).
+Output written on article.pdf (6 pages, 1799773 bytes).
 PDF statistics:
  134 PDF objects out of 1000 (max. 8388607)
  87 compressed objects within 1 object stream

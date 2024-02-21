@@ -61,22 +61,6 @@ When providers add funds to an LP, the apportioned value to each asset is split 
 
 The motivation for this analysis came out of the need to mitigate losses and maximize yield for a new smart DAO (ie, DAOSYS) that we are setting up on Syscoin's soon to be launched L2 network which is expected to go live mid-to-late 2023 \cite{Doge22}. In this article we provide an analytical and empirical a survey of IL and analytically show that expected impermanent loss is exactly computable and provide simulations to support the analysis. In summary, we provide a general easy-to-follow general guideline for LP managers to best manage their DEXs.
 
-\begin{equation}
-  \Delta x =\begin{cases}
-    0  & i_{c} < i_{l} \\
-    \Delta L (\sqrt{P} - \sqrt{p(i_{l})}) & i_{l} \leq  i_{c} < i_{u}\\
-    \Delta L (\sqrt{p(i_{u})} - \sqrt{p(i_{l})}) & i_{c} \geq i_{u}
-  \end{cases}
-\end{equation}
-
-\begin{equation}
-  \Delta y =\begin{cases}
-    \Delta L (\frac{1}{\sqrt{p(i_{l})}} - \frac{1}{\sqrt{p(i_{u})}} ) & i_{c} < i_{l}\\
-    \Delta L (\frac{1}{\sqrt{P}} - \frac{1}{\sqrt{p(i_{u})}}) & i_{l} \leq  i_{c} < i_{u} \\
-    0  &i_{c} \geq i_{u}
-  \end{cases}
-\end{equation}
-
 \section{Analytical Survey}
 
 \subsection{Expected Impermanent Loss}

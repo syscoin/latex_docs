@@ -1,0 +1,419 @@
+\documentclass[10pt,xcolor=svgnames]{beamer} %Beamer
+
+\usepackage{palatino} %font type
+\usepackage{xcolor}
+\usepackage{amsmath}
+\usepackage[font={small}]{caption}
+\usefonttheme{metropolis} %Type of slides
+\usefonttheme[onlymath]{serif} %font type Mathematical expressions
+\usetheme[progressbar=frametitle,titleformat frame=smallcaps,numbering=counter]{metropolis} %This adds a bar at the beginning of each section.
+\useoutertheme[subsection=false]{miniframes} %Circles in the top of each frame, showing the slide of each section you are at
+
+
+
+\usepackage{appendixnumberbeamer} %enumerate each slide without counting the appendix
+
+\definecolor{SysBlue}{RGB}{0,0,0}
+\definecolor{Progress}{RGB}{56,60,92}
+\definecolor{Header}{RGB}{25,25,25}
+\definecolor{SlideTitle}{RGB}{0,0,0}
+\definecolor{ToC}{RGB}{51,58,66}
+
+\setbeamercolor{progress bar}{fg=Progress} %These are the colours of the progress bar. Notice that the names used are the svgnames
+\setbeamercolor{title separator}{fg=SysBlue} %This is the line colour in the title slide
+\setbeamercolor{structure}{fg=black} %Colour of the text of structure, numbers, items, blah. Not the big text.
+\setbeamercolor{normal text}{fg=black!87} %Colour of normal text
+\setbeamercolor{alerted text}{fg=DarkRed!60!Gainsboro} %Color of the alert box
+\setbeamercolor{example text}{fg=ToC} %Colour of the Example block text
+\setbeamercolor{background canvas}{bg=white}
+
+
+\setbeamercolor{palette primary}{bg=SlideTitle, fg=white} %These are the colours of the background. Being this the main combination and so one. 
+\setbeamercolor{palette secondary}{bg=Header, fg=white}
+\setbeamercolor{palette tertiary}{bg=Header, fg=white}
+\setbeamercolor{section in toc}{fg=ToC} %Color of the text in the table of contents (toc)
+
+\setbeamertemplate{caption}{\raggedright\insertcaption\par}
+\setbeamertemplate{frame numbering}[none]
+\setbeamertemplate{blocks}[rounded][shadow=true]
+
+
+%These next packages are the useful for Physics in general, you can add the extras here. 
+\usepackage{amsmath,amssymb}
+\usepackage{slashed}
+\usepackage{cite}
+\usepackage{relsize}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{multicol}
+\usepackage{booktabs}
+\usepackage[scale=2]{ccicons}
+\usepackage{pgfplots}
+\usepgfplotslibrary{dateplot}
+\usepackage{geometry}
+\usepackage{xspace}
+
+\usepackage{textpos} 
+
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+
+\addtobeamertemplate{frametitle}{}{%
+    \begin{textblock*}{200mm}(.85\textwidth,-0.85cm)
+        \includegraphics[height=0.55cm,width=2.5cm]{logo_header}
+    \end{textblock*}}
+
+\newcommand{\themename}{\textbf{\textsc{bluetemp}\xspace}}%metropolis}}\xspace}
+
+\title{Liquidity Tree Protocols With Pachira}
+\author[Name]{Ian Moore, PhD \inst{$\dagger$}}%With inst, you can change the institution they belong
+
+\institute[shortinst]{\inst{$\dagger$} Researcher @ Syslabs (email: imoore@syscoin.org) }
+
+\date{Feburary 23, 2024} %Here you can change the date
+\titlegraphic{\vspace{-0.5cm}\hfill\includegraphics[scale=0.23]{logo.png}} %You can modify the location of the logo by changing the command \vspace{}. 
+
+\begin{document}
+{
+\setbeamercolor{background canvas}{bg=white, fg=black}
+\setbeamercolor{normal text}{fg=black}
+\maketitle
+}%This is the colour of the first slide. bg= background and fg=foreground
+
+\metroset{titleformat frame=smallcaps} %This changes the titles for small caps
+
+\begin{frame}{Outline}
+  \setbeamertemplate{section in toc}[sections numbered] %This is numbering the sections
+  \tableofcontents[hideallsubsections] %You can comment this line if you want to show the subsections in the table of contents
+\end{frame}
+
+\section{Introduction}
+
+
+
+\begin{frame}{Objectives}
+
+\metroset{block=fill}
+\begin{exampleblock}{\textsc{Define our problem}}
+\begin{itemize}
+  \item Stagnant Liquidity Problem
+  \item Implicitly addressed by Uniswap v3
+\end{itemize}  
+\end{exampleblock}
+
+\begin{exampleblock}{\textsc{Present our Solution}}
+\begin{itemize}
+  \item Liquidity Trees
+  \item Simulation Results
+\end{itemize}
+\end{exampleblock}
+
+\begin{exampleblock}{\textsc{Objective Question Revisted}}
+\begin{itemize}
+  \item Can Money Grow on Trees?
+\end{itemize}
+\end{exampleblock}
+
+\end{frame}
+
+
+\section{Preamble}
+
+\begin{frame}{What is Capital Efficiency?} 
+
+\begin{itemize}
+  \item Ability to maximize the utilization and productivity of capital within a DeFi ecosystem
+\end{itemize}
+
+ \[ \textrm{Capital Efficiency} = \frac{\textrm{Total Revenue}}{\textrm{Total Value Locked}} \]
+
+\begin{itemize} 
+\item Lay Example:
+     \begin{itemize} 
+        \item Suppose we have a Uniswap V2 Liquidity Pool (LP)
+        \item Contains $\sim$ \$100K USD of Total Value Locked 
+        \item On an arbitrary time interval, $\sim$ \$2-5K USD gets traded 
+        \item These trades generate revenue on 0.3\% swap fees
+        \item What about the remaining $\sim$ \$95-98K USD?
+        \item Poor capital efficiency 
+     \end{itemize}
+\item This inactive capital is what's formally known as \textbf{Lazy Liquidity}    
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Solution: Concentrated Liquidity} 
+
+\begin{figure}[h!]
+\includegraphics[width=3.5in]{img/concentrated_liquidity.png}
+\caption{Liquidity Frequency Distributions trading between $P_{a}$ and $P_{b}$: [RIGHT] Uniswap V1 \& V2; [LEFT] Uniswap V3} 
+\label{fig:uniswap_v3}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}{Concentrated Liquidity Market Makers} 
+
+Many DeFi protocols have applied the solution to this inefficiency using what's called a Concentrated Liquidity Market Maker (CLMM); well known CLMM protocols include:
+
+\begin{itemize} 
+\item Uniswap V3 + forks:
+     \begin{itemize} 
+        \item Pancakeswap V3
+        \item Sushiswap V3
+        \item Quickswap V3
+        \item Apeswap V3
+     \end{itemize}
+\item Kyber Elastic 
+\item Trader Joe v2
+\item Orca
+\item Raydium
+\end{itemize}
+
+
+\end{frame}
+
+\section{Problem we are Solving}
+
+\begin{frame}{Stagnant Liquidity Problem}
+
+ 
+\begin{itemize}
+  \item Let $L(p)$ be our optimal liquidity frequency distribution and, $\hat{L}_{(MM)}(p)$ would our our market maker (MM) estimator 
+  \item Hence, we define stagnant liquidity as:
+\end{itemize}
+
+\begin{align*} 
+L_{(stagnant)} &= \int_{\mathbb{R}}\hat{L}_{(MM)}(p)dp - \int_{p_{a}}^{p_{b}}\hat{L}_{(MM)}(p)dp\\ 
+  &= L_{(total)} - \int_{p_{a}}^{p_{b}}\hat{L}_{(MM)}(p)dp
+\end{align*}
+
+\end{frame}
+
+\begin{frame}{Stagnant Liquidity Problem (2)} 
+
+
+\begin{figure}[h!]
+\includegraphics[width=3.5in]{img/slp.png}
+\label{fig:uniswap_v3}
+\caption{Optimized Liquidity Frequency Distribution (eg. Uniswap v3)} 
+\end{figure}
+
+No matter what one does to address the lazy liquidity issue using CLMMs, there will always be a certain amount of stagnant liquidity remaining  
+
+\end{frame}
+
+
+\begin{frame}{Stagnant Liquidity Problem (3)} 
+
+\metroset{block=fill}
+\begin{exampleblock}{\textsc{Problem?}}
+\begin{itemize}
+  \item Given the estimate of our optimized MM liquidity frequency distribution (eg. $\hat{L}_{(CLMM)}(p)$)
+  \item How do we increase trading volume on stagnated liquidity outside of the active liquidity band [$p_{a}$, $p_{b}$]?
+  \item Stagnant Liquidity Problem
+\end{itemize}
+\end{exampleblock}
+
+\metroset{block=fill}
+\begin{exampleblock}{\textsc{Solution}}
+\begin{itemize}
+  \item Instead of adjusting the price curve as individual LPs using CLMMs, we address the problem via a \red{network} of LPs called \red{Liquidity Trees}
+\end{itemize}
+\end{exampleblock}
+
+\vspace{7cm}
+
+\end{frame}
+
+\section{Liquidity Trees}
+
+
+\begin{frame}{Price Curve: Uniswap v3} 
+
+\begin{figure}[h!]
+\includegraphics[width=2.3in]{img/uniswap_v3.png}
+\caption{Graphical illustration on how depth is virtually increased using Uniswap v3} 
+\label{fig:uniswap_v3}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}{Indexing Problem: Posed} 
+
+\metroset{block=fill}
+\begin{exampleblock}{\textsc{CPT Indexing Problem}}
+\begin{itemize}
+  \item Given a position $\Delta L$, what is the indexed value in only one of the two pairing assets (x,y)
+\end{itemize}
+\end{exampleblock}
+
+\begin{figure}[h!]
+\includegraphics[width=2.3in]{img/indexed_tkn_lrg.png}
+\label{fig:uniswap_v3}
+\end{figure}
+
+\end{frame}
+
+
+
+\begin{frame}{Let's Include a new Dimension ...} 
+ 
+\begin{figure}[h!]
+\includegraphics[width=3in]{img/simple_tree.png}
+\caption{Include a new dimension (ix); liquidity $\Delta L$ gets indexed to $\Delta ix$, and new market is formed on ix-x plane} 
+\label{fig:simple_tree}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}{How does this Work?} 
+
+\begin{figure}[h!]
+\includegraphics[width=3in]{img/compare.png}
+\caption{Boxes represent liquidity under CPT curve; creating a new market out of indexed liquidity indexed liquidity is a way to address the stagnant liquidity problem; in short we've leveraged some of the green, got red and made some extra purple} 
+\label{fig:compare}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}{Full Tree} 
+
+\begin{figure}[h!]
+\includegraphics[width=3in]{img/full_tree.png}
+\caption{Full CPT liquidity tree represented as a computational tree structure comprised of left-sided, right-sided and synthetic pools } 
+\label{fig:full_tree}
+\end{figure}
+
+Liquidity Trees can be represented as computational graphs where nodes are denoted as DEX operations and arcs are denoted as indexed capital transitioning between the parent node and the child
+
+\end{frame}
+
+\begin{frame}{Sub Trees} 
+
+\begin{figure}[h!]
+\includegraphics[width=3in]{img/sub_trees.png}
+\caption{Sub-trees comprised of: (TOP LEFT) left tree; (TOP CENTER) right tree; (TOP RIGHT) double tree; (BOTTOM LEFT) equivalent tree; (BOTTOM CENTER) opposing Tree} 
+\label{fig:sub_trees}
+\end{figure}
+
+\end{frame}
+
+
+\section{Simulation Results}
+
+\begin{frame}{Left Tree}
+
+\begin{figure}[h!]
+\includegraphics[width=3in]{img/left_tree.png}
+\label{fig:left_tree}
+\end{figure}
+
+\end{frame}
+
+
+\begin{frame}{Left Tree: Simulated Price / Revenue (1)}
+
+\begin{figure}[h!]
+\includegraphics[width=3in]{img/simulation.jpg}
+\label{fig:simulation}
+\end{figure}
+
+\end{frame}
+
+
+\begin{frame}{Left Tree: Simulated Price / Revenue (2)}
+
+
+\begin{table}[h]
+\tiny
+\centering
+\begin{tabular}{ |l|c|c|c| } 
+\hline
+ \textbf{Metric} & \multicolumn{3}{|c|}{\textbf{Totals}}\\
+\hline 
+ Revenue (LP) / LP Liquidity & \multicolumn{3}{|c|}{19.4\% }\\
+ Revenue (LP+LP1+LP2) / LP Liquidity & \multicolumn{3}{|c|}{26.3\% }\\
+ Revenue Boost (Indexed Liquidity)  & \multicolumn{3}{|c|}{35.61\%}\\ 
+ Percentage Indexed & \multicolumn{3}{|c|}{7.51\%}\\ 
+ \hline
+\hline
+	& \multicolumn{3}{|c|}{\textbf{Sub-totals}} \\
+  & \textbf{LP (ETH-DAI)} & \textbf{LP1 (iETH-ETH)} & \textbf{LP2 (iETH-DAI)} \\
+\hline
+Liquidity  & \$1,559,145 & \$71,961 & \$162,118\\
+Revenue  & \$302,140 & \$57,927 & \$49,673\\
+Revenue / Liquidity  & 19.4\% & 80.5\% & 30.64\%\\ 
+\hline
+\end{tabular}
+\caption{Metrics harvested from Left-tree simulation using ETH \& DAI (Jan 2018 to Oct 2023)}
+\label{table:simulator_components}
+\end{table}
+
+\end{frame}
+
+
+
+\section{Our Objective Question}
+
+\begin{frame}{In Summary}
+
+
+\metroset{block=fill}
+\begin{exampleblock}{\textsc{Stagnant Liquidity Problem}}
+\begin{itemize}
+  \item Defined stagnant liquidity problem and how it can be addressed
+\end{itemize}
+\end{exampleblock}
+
+\begin{exampleblock}{\textsc{Liquidity Trees: A new DeFi Primitive}}
+\begin{itemize}
+  \item New DeFi primitive, which we call Liquidity Trees 
+  \item Utilizes fully collateralized liquidity, and can be represented as undirected graphs or algebraically in $\mathbb{R}^n$
+  \item Simulations support our reasoning
+\end{itemize}
+\end{exampleblock}
+
+\begin{exampleblock}{\textsc{Pachira Token Launch}}
+\begin{itemize}
+  \item Combining Liquidity Trees with a governance system for Pachira Fund token launch
+\end{itemize}
+\end{exampleblock}
+
+
+
+\end{frame}
+
+
+\begin{frame}[standout]
+  Thank you! 
+\end{frame}
+
+\begin{frame}{Appendix 1: Pachira Token Launch}
+\begin{figure}[h!]
+\includegraphics[width=3in]{img/dex_forest_single_tree.png}
+\label{fig:dex_forest}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Appendix 2: Reserve Swap Prices}
+\begin{figure}[h!]
+\includegraphics[width=3.5in]{img/single_swap_prices.png}
+\label{fig:swap_prices}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Appendix 3: Pachira Token Launch}
+\begin{figure}[h!]
+\includegraphics[width=4.2in]{img/dex_forest.png}
+\label{fig:dex_forest}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Appendix 4: Reserve Swap Prices}
+\begin{figure}[h!]
+\includegraphics[width=3.5in]{img/swap_prices.jpg}
+\label{fig:swap_prices}
+\end{figure}
+\end{frame}
+
+\end{document}
